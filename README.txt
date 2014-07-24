@@ -1,3 +1,6 @@
+Important : this is not the official CumulusClips repository.
+If you need the latest version of CumulusClips, you can get it on the project website : http://cumulusclips.org
+
 ---------------------
 CONTENTS OF THIS FILE
 ---------------------
