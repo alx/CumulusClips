@@ -1,34 +1,20 @@
 Important : this is not the official CumulusClips repository.
 If you need the latest version of CumulusClips, you can get it on the project website : http://cumulusclips.org
 
----------------------
-CONTENTS OF THIS FILE
----------------------
+# CONTENTS OF THIS FILE
 
  * About CumulusClips
  * Server Requirements
  * PHP Requirements
  * File Permissions
 
-
-
-
-
-------------------
-ABOUT CUMULUSCLIPS
-------------------
+# ABOUT CUMULUSCLIPS
 
 CumulusClips is an open source video content management platform capable of
 supporting from small video microsites to large scale video websites. For more
 information, see the CumulusClips website at http://cumulusclips.org/.
 
-
-
-
-
--------------------
-SERVER REQUIREMENTS
--------------------
+# SERVER REQUIREMENTS
 
 CumulusClips requires:
 
@@ -46,13 +32,7 @@ For video encoding:
 - Theora (http://www.theora.org/).
 - Vorbis (http://www.vorbis.com/).
 
-
-
-
-
-----------------
-PHP REQUIREMENTS
-----------------
+# PHP REQUIREMENTS
 
 The following PHP modules are required:
 
@@ -63,23 +43,21 @@ The following PHP modules are required:
 
 The following PHP settings are required:
 
+```
 short_open_tags = on
 upload_max_filesize = 110M
 post_max_size = 110M
 max_execution_time = 1500
+```
 
-
-
-
-
-----------------
-FILE PERMISSIONS
-----------------
+# FILE PERMISSIONS
 
 Make sure the following directories are writeable by PHP and the webserver:
 
+```
 /cc-core/log
 /cc-content/uploads/temp
 /cc-content/uploads/flv
 /cc-content/uploads/mobile
 /cc-content/uploads/thumbs
+```
