@@ -48,7 +48,7 @@ class Pagination {
         $first = $this->GetFirst();
         $last = $this->GetLast();
         $next = $this->GetNext();
-        return '<ul id="pagination">' . $previous . $first . $links . $last . $next . '</ul>';
+        return '<ul class="pagination">' . $previous . $first . $links . $last . $next . '</ul>';
     }
 
 
@@ -113,7 +113,7 @@ class Pagination {
         // Display pages
         $links = '';
         for ($x = $start_range; $x <= $end_range; $x++) {
-            $links .= $this->page == $x ? '<li><strong>' . $x . '</strong></li>' : '<li><a href="' . $this->BuildURL($x) . '">' . $x . '</a></li>';
+            $links .= $this->page == $x ? '<li class="active"><a href="#">' . $x . '</a></li>' : '<li><a href="' . $this->BuildURL($x) . '">' . $x . '</a></li>';
         }
         return $links;
 
